@@ -38,6 +38,7 @@ preprocess stage
 -preprocess datasets to make the same formatting
 -produce standardized  score versions of the datasets
 -preprocess datsets to prepare for training/testing
+-create a dictionary of word/frequencies pairs
 
 coding stage
 -write model
