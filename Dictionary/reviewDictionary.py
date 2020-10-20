@@ -14,11 +14,11 @@ class review:
 #will return a dictionary of word fequencies for each review
 #TODO ignore empty entries
 #to parse entire data sheet set range to 1766
-for i in range(1766):
+for i in range(10000):
     dictionary = {}
 
     #read excel doc and parce desired section
-    df = pd.read_excel (r'songReviewDataP1.xlsx', usecols = [6], nrows = 1, skiprows = i+1)
+    df = pd.read_excel (r'songReviewData.xlsx', usecols = [6], nrows = 1, skiprows = i+1)
     scoreVal = pd.read_excel (r'songReviewData.xlsx', usecols = [7], nrows = 1, skiprows = i+1)
 
     text = df.to_string().lower()
