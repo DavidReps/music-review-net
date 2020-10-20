@@ -13,8 +13,8 @@ class review:
 
 #will return a dictionary of word fequencies for each review
 #TODO ignore empty entries
-#to parse entire data sheet set range to 19555
-for i in range(3):
+#to parse entire data sheet set range to 1766
+for i in range(1766):
     dictionary = {}
 
     #read excel doc and parce desired section
